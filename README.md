@@ -30,7 +30,7 @@ Explains practical application of OO Concepts (Abstraction, Encapsulation, Inher
 4. **Mapping UML Class Diagram Relationships into Java Implementation**  
    Mapping associations, compositions, and inheritance into Java code using appropriate keywords.
 
-Please refer to the below article for more details: 
+Please refer to the below article for more details: <br/>
 https://medium.com/lexicon-digital/inside-the-object-oriented-toolbox-mapping-between-design-implementation-405f00e22bd
 
 5. **SOLID Principles Explained with Concrete Examples**  
@@ -42,7 +42,7 @@ https://medium.com/lexicon-digital/inside-the-object-oriented-toolbox-mapping-be
    - **I**: Interface Segregation Principle
    - **D**: Dependency Inversion Principle
 
-Please refer to the below article for more details: 
+Please refer to the below article for more details: <br/>
 https://wimal-perera.medium.com/inside-the-object-oriented-toolbox-avoiding-bad-design-with-solid-principles-b8eb256c968c
 
 6. **How SOLID Principles Are Violated During Early Sprints of an Agile Driven Project**  
@@ -61,7 +61,7 @@ https://wimal-perera.medium.com/inside-the-object-oriented-toolbox-avoiding-bad-
 | **I** | Large interfaces with many methods | Break down large interfaces into smaller, focused ones |
 | **D** | High-level modules depend on low-level modules | Introduce dependency injection to reduce coupling |
 
-Please refer to the below article for more details: 
+Please refer to the below article for more details: <br/>
 https://medium.com/lexicon-digital/developing-agile-driven-software-whilst-adhering-with-best-engineering-practices-261a6aabe7a5
 
 ---
