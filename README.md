@@ -10,6 +10,10 @@ It also introduces the practical application of SOLID principles and key design 
   <h3 align="center"><em>Mastering OOP: A Visual Overview</em></h3>
 </p>
 
+---
+
+## Conceptual Mindmap
+
 Here is a mind map illustrating the relationships between OOP Concepts, OO Design Principles, OO Patterns, and their practical application in real-world IT industry projects from a developer/architect's perspective:
 
 ```mermaid
