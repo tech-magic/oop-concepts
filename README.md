@@ -5,6 +5,13 @@ This guide explains the practical application of core OOP concepts—abstraction
 It covers how Agile-Scrum manages projects and how UML diagrams illustrate Object-Oriented Designs for both technical and non-technical stakeholders.
 It also introduces the practical application of SOLID principles and key design patterns (creational, structural, and behavioral) for building flexible and maintainable software systems.
 
+<p align="center">
+  <figure>
+    <img src="OOP_Overview.png" alt="Mastering OOP: A Visual Overview" width="600">
+    <figcaption><em>Mastering OOP: A Visual Overview</em></figcaption>
+  </figure>
+</p>
+
 ## Part 1: Practical OOP
 
 Explains practical application of OO Concepts (Abstraction, Encapsulation, Inheritance, and Polymorphism) with day-to-day concrete examples. 
