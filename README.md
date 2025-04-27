@@ -139,7 +139,7 @@ mindmap
 
 ---
 
-## Part 1: Practical OOP
+## OO Part 1: Practical OOP
 
 Explains practical application of OO Concepts (Abstraction, Encapsulation, Inheritance, and Polymorphism) with day-to-day concrete examples. 
 
@@ -154,7 +154,7 @@ Explains practical application of OO Concepts (Abstraction, Encapsulation, Inher
 
 ---
 
-## Part 2: Object Oriented Design Principles
+## OO Part 2: Object Oriented Design Principles
 
 1. **Agile-Scrum Methodology**  
    Scrum is an agile process framework for managing complex product development.
@@ -204,7 +204,7 @@ https://medium.com/lexicon-digital/developing-agile-driven-software-whilst-adher
 
 ---
 
-## Part 3: Object Oriented Design Patterns
+## OO Part 3: Object Oriented Design Patterns
 
 1. **Introducing Design Patterns (Creational, Structural, and Behavioral)**  
    Design patterns are reusable solutions to common problems in software design.
