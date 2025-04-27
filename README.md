@@ -10,62 +10,127 @@ It also introduces the practical application of SOLID principles and key design 
   <h3 align="center"><em>Mastering OOP: A Visual Overview</em></h3>
 </p>
 
----
-
-## Conceptual Mind Map
-
-Below is a mind map showing the relationships between the OOP concepts, design principles, patterns, and how to apply OOP in a real-world IT industry project as a developer/architect:
+Here is a mind map illustrating the relationships between OOP Concepts, OO Design Principles, OO Patterns, and their practical application in real-world IT industry projects from a developer/architect's perspective:
 
 ```mermaid
 mindmap
-  root((OOP<br/> Concepts))
-    Practical OOP
-      Abstraction
-      Encapsulation
-      Inheritance
-      Polymorphism
-    Agile-Scrum with OOP: Streamlining Development
-      Agile Manifesto
-        Scrum Methodology
-          Project Execution
-            Sprint
-            Product Backlog
-            Minimum Viable Product          
-      Requirement Analysis
-      UML Class Diagrams
-      SOLID Principles
-        S - Single Responsibility
-        O - Open/Closed
-        L - Liskov Substitution
-        I - Interface Segregation
-        D - Dependency Inversion
-    Design Patterns
-      Creational
-        Factory Method
-        Abstract Factory
-        Singleton
-        Builder
-        Prototype
-      Structural
-        Adapter
-        Bridge
-        Composite
-        Decorator
-        Facade
-        Flyweight
-        Proxy
-      Behavioral
-        Chain of Responsibility
-        Command
-        Interpreter
-        Iterator
-        Mediator
-        Memento
-        Observer
-        State
-        Strategy
-        Template Method
-        Visitor
+  root((IT Project))
+    Business Scenario
+        Requirement Analysis
+            Functional Requirements
+            Non-functional Requirements
+            Constraints
+        Identifying Domain Entities & Relationships
+            OOP Concepts
+                Abstraction
+                    by Specialization
+                    by Generalization
+                    by Aggregation
+                Encapsulation
+                    Design by Contract
+                Inheritance
+                    Single
+                    Multiple
+                    Multi-level
+                    Hierarchical
+                    Hybrid
+                Polymorphism
+    Planning, Execution & Delivery
+        Agile Manifesto
+            Scrum Methodology
+                Sprint
+                    Sprint Item
+                        SMART
+                            S - Specific
+                            M - Measurable
+                            A - Achievable
+                            R - Relevant
+                            T - Time-bound
+                        Definition of Done
+                        Estimation
+                            Story Points
+                                Fibanocci Estimates
+                Product Backlog
+                    Product Backlog Item Types
+                        Epic
+                        User Story
+                        Feature
+                        Bug
+                        Spike
+                        Design Change
+                        Requirement Analysis
+                Minimum Viable Product
+                Potentially Shippable Product Increment
+            Agile Ceremonies
+                Backlog Grooming
+                Sprint Planning
+                Daily Standup
+                Sprint Retrospective
+                Sprint Demo
+    Documentation
+        UML
+            Use-case Diagram
+                Entity
+                  Use-case
+                  Actor
+                Relationship
+                    Association
+                    Actor Generalization
+                    Extend
+                    Include
+                    Use-case Generalization
+            Class Diagram
+                Class
+                    Attribute
+                    Method
+                    Stereotype
+                        Entity
+                        Boundary
+                        Control
+                        Interface
+                Relationship
+                    Dependency
+                    Association
+                    Aggregation
+                    Composition
+                    Generalization
+                    Realization
+    Design & Implementation
+        Guidelines
+            SOLID Principles
+                S - Single Responsibility
+                O - Open/Closed
+                L - Liskov Substitution
+                I - Interface Segregation
+                D - Dependency Inversion
+        Common Reusable Solutions
+            OO Design Patterns
+                Creational
+                    Factory Method
+                    Abstract Factory
+                    Singleton
+                    Builder
+                    Prototype
+                Structural
+                    Adapter
+                    Bridge
+                    Composite
+                    Decorator
+                    Facade
+                    Flyweight
+                    Proxy
+                Behavioral
+                    Chain of Responsibility
+                    Command
+                    Interpreter
+                    Iterator
+                    Mediator
+                    Memento
+                    Observer
+                    State
+                    Strategy
+                    Template Method
+                    Visitor
 ```
 
 ---
