@@ -6,10 +6,8 @@ It covers how Agile-Scrum manages projects and how UML diagrams illustrate Objec
 It also introduces the practical application of SOLID principles and key design patterns (creational, structural, and behavioral) for building flexible and maintainable software systems.
 
 <p align="center">
-  <figure>
-    <img src="OOP_Overview.png" alt="Mastering OOP: A Visual Overview" width="600">
-    <figcaption><em>Mastering OOP: A Visual Overview</em></figcaption>
-  </figure>
+  <img src="OOP_Overview.png" alt="Mastering OOP: A Visual Overview" width="650">
+  <h3 align="center"><em>Mastering OOP: A Visual Overview</em></h3>
 </p>
 
 ## Part 1: Practical OOP
