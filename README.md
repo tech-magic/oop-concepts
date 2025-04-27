@@ -1,7 +1,7 @@
 
 # The Essential Toolbox: OOP Concepts, Agile-Scrum, SOLID Principles, and Design Patterns
 
-This guide explains the practical application of core OOP concepts—abstraction, encapsulation, inheritance, and polymorphism—through real-world examples.
+This guide explains the practical application of core OOP (Object Oriented Programming) concepts—abstraction, encapsulation, inheritance, and polymorphism—through real-world examples.
 It covers how Agile-Scrum manages projects and how UML diagrams illustrate Object-Oriented Designs for both technical and non-technical stakeholders.
 It also introduces the practical application of SOLID principles and key design patterns (creational, structural, and behavioral) for building flexible and maintainable software systems.
 
@@ -9,6 +9,66 @@ It also introduces the practical application of SOLID principles and key design 
   <img src="OOP_Overview.png" alt="Mastering OOP: A Visual Overview" width="650">
   <h3 align="center"><em>Mastering OOP: A Visual Overview</em></h3>
 </p>
+
+---
+
+## Conceptual Mind Map
+
+Below is a mind map showing the relationships between the OOP concepts, design principles, patterns, and how to apply OOP in a real-world IT industry project as a developer/architect:
+
+```mermaid
+mindmap
+  root((OOP<br/> Concepts))
+    Practical OOP
+      Abstraction
+      Encapsulation
+      Inheritance
+      Polymorphism
+    Agile-Scrum with OOP: Streamlining Development
+      Agile Manifesto
+        Scrum Methodology
+          Project Execution
+            Sprint
+            Product Backlog
+            Minimum Viable Product          
+      Requirement Analysis
+      UML Class Diagrams
+      SOLID Principles
+        S - Single Responsibility
+        O - Open/Closed
+        L - Liskov Substitution
+        I - Interface Segregation
+        D - Dependency Inversion
+    Design Patterns
+      Creational
+        Factory Method
+        Abstract Factory
+        Singleton
+        Builder
+        Prototype
+      Structural
+        Adapter
+        Bridge
+        Composite
+        Decorator
+        Facade
+        Flyweight
+        Proxy
+      Behavioral
+        Chain of Responsibility
+        Command
+        Interpreter
+        Iterator
+        Mediator
+        Memento
+        Observer
+        State
+        Strategy
+        Template Method
+        Visitor
+```
+
+---
 
 ## Part 1: Practical OOP
 
@@ -79,72 +139,17 @@ https://medium.com/lexicon-digital/developing-agile-driven-software-whilst-adher
 
 1. **Introducing Design Patterns (Creational, Structural, and Behavioral)**  
    Design patterns are reusable solutions to common problems in software design.
-
 2. **In-depth Analysis on Creational Design Patterns**  
    Creational patterns deal with object creation mechanisms, trying to create objects in a manner suitable to the situation.  
    
    **When to use:**  
-   - When the system should be independent of how its objects are created, composed, and represented.  
-   
+   - When the system should be independent of how its objects are created, composed, and represented.
    **When not to use:**  
    - When the system doesn't need flexible object creation.
 
----
+#### Types of Design Patterns
 
-## Conceptual Mind Map
-
-Here is a mind map showing the relationships between the OOP concepts, design principles, and patterns:
-
-```mermaid
-mindmap
-  root((OOP<br/> Concepts))
-    Practical OOP
-      Abstraction
-      Encapsulation
-      Inheritance
-      Polymorphism
-    Design Principles
-      Agile-Scrum
-      Requirement Analysis
-      UML Class Diagrams
-      SOLID Principles
-        S - Single Responsibility
-        O - Open/Closed
-        L - Liskov Substitution
-        I - Interface Segregation
-        D - Dependency Inversion
-    Design Patterns
-      Creational
-        Factory Method
-        Abstract Factory
-        Singleton
-        Builder
-        Prototype
-      Structural
-        Adapter
-        Bridge
-        Composite
-        Decorator
-        Facade
-        Flyweight
-        Proxy
-      Behavioral
-        Chain of Responsibility
-        Command
-        Interpreter
-        Iterator
-        Mediator
-        Memento
-        Observer
-        State
-        Strategy
-        Template Method
-        Visitor
-```
-
-### Types of Design Patterns
-
-1. **Creational Design Patterns**  
+a. **Creational Design Patterns**  
    These patterns deal with object creation mechanisms, trying to create objects in a manner suitable to the situation. They provide flexibility in deciding which objects need to be created for a given scenario.  
    **Examples**:
    - **Factory Method**  
@@ -153,7 +158,7 @@ mindmap
    - **Builder**
    - **Prototype**
 
-2. **Structural Design Patterns**  
+b. **Structural Design Patterns**  
    These patterns deal with object composition, creating relationships between objects to form larger structures. They help ensure that classes and objects can work together by promoting composability and reusability.  
    **Examples**:
    - **Adapter**
@@ -164,7 +169,7 @@ mindmap
    - **Flyweight**
    - **Proxy**
 
-3. **Behavioral Design Patterns**  
+c. **Behavioral Design Patterns**  
    These patterns focus on communication between objects, what happens when objects interact, and how responsibilities are distributed. They define how objects collaborate to fulfill a task.  
    **Examples**:
    - **Chain of Responsibility**
@@ -180,4 +185,30 @@ mindmap
    - **Visitor**
 
 ---
+
+# Comparison Between Agile and Scrum
+
+| **Aspect**              | **Agile**                                             | **Scrum**                                               |
+|-------------------------|-------------------------------------------------------|---------------------------------------------------------|
+| **Definition**           | A set of principles and values for software development, emphasizing flexibility, collaboration, and customer feedback. | A specific Agile framework that provides a structured approach to implementing Agile principles through roles, events, and artifacts. |
+| **Focus**                | Agile focuses on continuous improvement, flexibility, and iterative progress. | Scrum focuses on delivering work in short, fixed-length iterations called sprints, typically 2–4 weeks long. |
+| **Methodology Type**     | An umbrella term for various frameworks (Scrum, Kanban, XP, etc.) that follow Agile principles. | A specific Agile framework with defined roles, events, and artifacts. |
+| **Roles**                | Roles are not defined within the Agile manifesto, and they vary depending on the methodology. | Scrum defines three roles: Product Owner, Scrum Master, and Development Team. |
+| **Iterations**           | Iterative approach, but the structure of iterations varies by the Agile methodology. | Scrum follows fixed-length sprints (typically 2–4 weeks). |
+| **Flexibility**          | Agile encourages flexibility in processes to adapt to changing requirements. | Scrum follows strict guidelines, but it’s flexible in terms of adapting to changing requirements during sprints. |
+| **Planning**             | Agile emphasizes adaptive planning throughout the project life cycle. | Scrum involves detailed planning in the form of sprint planning, backlog grooming, and sprint reviews. |
+| **Team Size**            | Agile teams are typically small, but there’s no specific size. | Scrum teams usually consist of 3 to 9 people. |
+| **Customer Interaction** | Frequent customer collaboration and feedback are central to Agile. | Scrum incorporates feedback through reviews at the end of each sprint and maintains close communication with the Product Owner. |
+| **Agile Manifesto**      | The Agile Manifesto focuses on values and principles that promote Agile development. | Scrum aligns with the values of the Agile Manifesto but provides more structure and specific guidelines for implementing Agile. |
+
+## Agile Manifesto
+
+The **Agile Manifesto** outlines the core values and principles behind Agile methodologies. It was created in 2001 by 17 software developers to promote a better way of developing software. The manifesto emphasizes:
+
+- **Individuals and interactions over processes and tools.**
+- **Working software over comprehensive documentation.**
+- **Customer collaboration over contract negotiation.**
+- **Responding to change over following a plan.**
+
+You can find the full Agile Manifesto and its principles [here](https://agilemanifesto.org/).
 
